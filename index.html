@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><link rel="stylesheet" href="css/styles.css">
+  </head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Robinson Wekesa web development journey</title>
@@ -54,6 +55,7 @@ code .
         <p class="price">KSh 200</p>
       </article>
       <article class="card featured">
+        <span class="badge">Chef's choice</span>
         <h3>Githeri special</h3>
         <p>Maize and beans fried with onions, tomatoes and avocado.</p>
         <p class="price">KSh 250</p>
@@ -84,3 +86,64 @@ code .
   </footer>
 </body>
 </html>
+```css
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve readability */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Remove underlines from navigation links only */
+nav a {
+    text-decoration: none;
+}
+
+/* Style the eyebrow text */
+.eyebrow {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Add comfortable spacing */
+section {
+    padding: 24px 16px;
+}
+
+/* Prevent content from overflowing on small screens */
+* {
+    box-sizing: border-box;
+}
+
+/* Adjust layout for mobile screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+  
+

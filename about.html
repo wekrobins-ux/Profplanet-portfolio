@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><link rel="stylesheet" href="css/styles.css">
+  </head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goodmorning engineer PSA</title>
@@ -24,3 +25,31 @@ touch <about class="html">
   nairobi, Kenya<br>
   00100
 </p>
+body {
+  line-height: 1.6;   /* 1.6 times the font size of each element */
+}
+h1, h2, h3 {
+  line-height: 1.2;   /* large text needs less space between lines */
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;   /* small uppercase labels: open them up */
+}
+h1 {
+  letter-spacing: -0.02em; /* very large headings can be tightened slightly */
+}
+p {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-top: 2.5rem;    /* more space above a heading than below it */
+  margin-bottom: 0.75rem;
+}
+p,
+li {
+  max-width: 65ch;
+}
+.price,
+.phone {
+  white-space: nowrap;   /* "KSh 350" or "0712 345 678" never splits across two lines */
+}
