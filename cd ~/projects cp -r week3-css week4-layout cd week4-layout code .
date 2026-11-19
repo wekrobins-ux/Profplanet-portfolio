@@ -15,11 +15,17 @@
     <p>Today i learned the basic structure about HTML document.</p>
   </body>
 </html>
-cd ~/projects
-mkdir week3-css
-cd week3-css
-git init
-code .
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 25px;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
