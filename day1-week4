@@ -1,0 +1,8 @@
+cd ~/projects
+cp -r week3-css week4-layout
+cd week4-layout
+code .
+<header class="site-header">          <!-- flex container -->
+  <p class="logo">Mama Njeri's Kitchen</p>   <!-- flex item -->
+  <nav class="main-nav">...</nav>            <!-- flex item -->
+</header>
